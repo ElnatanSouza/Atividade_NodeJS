@@ -18,27 +18,37 @@
 
                 <div class="mt-5">
 
-                    <p>Placa = <%= dado.placa %>
+                    <p> <b>Placa</b> = <%= dado.placa %>
                     </p> <br />
-                    <p>Marca = <%= dado.marca %>
+                    <p> <b>Chassi</b> = <%= dado.chassi %>
                     </p> <br />
-                    <p>Modelo = <%= dado.modelo %>
+                    <p> <b>Marca</b> = <%= dado.marca %>
                     </p> <br />
-                    <p>Cor = <%= dado.cor %>
+                    <p> <b>Modelo </b>= <%= dado.modelo %> - <%= dado.anoModelo %>
                     </p> <br />
-                    <p>Municipio = <%= dado.municipio %> - <%= dado.uf %>
+                    <p> <b>Cor</b> = <%= dado.cor %>
                     </p> <br />
-                    <p>Situação = <%= dado.situacao %>
+                    <p> <b>Municipio</b> = <%= dado.municipio %> - <%= dado.uf %>
                     </p> <br />
-                    <p>Alerta de roubo ou furto = <%= dado.dataAtualizacaoRouboFurto %>
+                    <p> <b>Situação</b> = <%= dado.situacao %>
                     </p> <br />
+                    <p class="text-danger"> <b>
+                            <%= dado.dataAtualizacaoRouboFurto %>
+                    </p> </b><br />
 
                 </div>
-
 
             </div>
         </div>
         <a href="/veiculo" class="mb-3 btn btn-danger">Procurar outro veiculo</a>
+
+        <footer class="d-flex justify-content-center mt-5">
+            &copy;
+            <script>
+                const date = new Date().getFullYear()
+                document.write(date)
+            </script> - Elnatan Souza
+        </footer>
     </div>
 
 
