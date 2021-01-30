@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container mt-5">
+    <div class="container mt-5 w-50">
         <div class="card">
             <div class="card-header">
                 <h3>Achar endereco pelo CEP</h3>
@@ -25,33 +25,35 @@
             <div class="card-body">
                 <form action="" method="post">
                     <div class="form-group">
-                        <label for="cep">Cep</label>
-                        <input placeholder="Digite tudo junto" class="form-control" type="text" name="cep" id="cep" required>
-                        <input type="submit" class="btn btn-outline-success mt-2" value="Buscar">
+                        <label for="cep">Cep:</label>
+                        <input placeholder="Digite tudo junto" class="form-control" type="text" name="cep" id="cep"
+                            required>
+                        <input type="submit" class="btn btn-outline-success mt-2 mb-3" value="Buscar">
                     </div>
                 </form>
+                <a href="/">Voltar para Home</a>
             </div>
 
-            <footer class="d-flex justify-content-center mt-5">
-                &copy;
-                <script>
-                    const date = new Date().getFullYear()
-                    document.write(date)
-                </script> - Elnatan Souza
-            </footer>
-
         </div>
+    </div>
+    <footer class="container d-flex justify-content-center mt-5">
+        &copy;
+        <script>
+            const date = new Date().getFullYear()
+            document.write(date)
+        </script> - Elnatan Souza
+    </footer>
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
 
